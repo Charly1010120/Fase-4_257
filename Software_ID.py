@@ -4,12 +4,6 @@ Sistema Integral de Gestión de Clientes, Servicios y Reservas
 Curso: Programación - UNAD
 Fase 4
 
-Aplicación de consola desarrollada con programación orientada a objetos.
-No utiliza bases de datos: clientes, servicios y reservas se administran
-mediante listas en memoria. El archivo logs/software_id.log conserva
-eventos y errores de ejecución.
-"""
-
 from abc import ABC, abstractmethod
 from pathlib import Path
 from datetime import datetime
